@@ -1,9 +1,9 @@
-@import 'mobile-menu.scss';
+
 @import '../../node_modules/normalize.css/normalize';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-$mainColor: cornsilk; // 
-$secondColor: darkseagreen;  // 
+$main-color: #fff8dc; // cornsilk
+$second-color: #8fbc8f;  // DarkSeaGreen
 
 * {
     box-sizing: border-box;
@@ -13,7 +13,8 @@ $secondColor: darkseagreen;  //
     font-family: 'Roboto', sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 1.5em;
 }
 
@@ -21,7 +22,8 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -35,11 +37,12 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 50px;
-    background-color: $mainColor;
+    background-color: $main-color;
 }
 
-.header, .footer {
-    background-color: $secondColor;
+.header,
+.footer {
+    background-color: $second-color;
     flex: 0 0 auto;
 }
 
@@ -49,24 +52,29 @@ body {
     max-width: 250px;
 }
 
-.header, .site-header {
+.header,
+.site-header {
     display: flex;
     justify-content: space-between;
 }
 
 /* Title */
 
-.title, .logo {
+.title,
+.logo {
     padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
-    .title, .logo {
+    .title,
+    .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
+
     .logo {
         max-width: 30%;
     }
@@ -105,13 +113,22 @@ body {
     color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
 }
