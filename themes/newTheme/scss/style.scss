@@ -52,6 +52,18 @@ body {
     max-width: 250px;
 }
 
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(246, 255, 126);
+}
+
+.nav a:hover {
+    background-color: $main-color;
+}
+
 .header,
 .site-header {
     display: flex;
@@ -133,13 +145,86 @@ h6 {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
+.logo img {
+    max-width: 50%;
+    margin-left: 50px;
 }
 
-img.img200 {
+.img200 {
     width: 200px;
 }
+
+/* Technologies, flex*/
+
+.technology-grid {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: auto auto auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.technology {
+    background-color: #111;
+    border: 2px solid #8fbc8f;
+    border-radius: 5px;
+    padding: 20px;
+    height: calc(150px + 2vw);
+}
+
+.technology:hover {
+    background-color: #222;
+}
+
+.t-a {
+    text-decoration: none;
+    color: $main-color;
+}
+
+.technology-article {
+    display: flex;
+    gap: 50px;
+}
+
+.sidebar {
+    height: fit-content;
+    background-color: #111;
+    border: 2px solid #8fbc8f;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sidebar h3 {
+    color: $main-color;
+}
+
+.sidebar a {
+    color: $main-color;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.article {
+    max-width: 50%;
+}
+
+@media (max-width: 767px) {
+    .technology-grid {
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-template-columns: auto;
+    }
+
+    .sidebar {
+        display: none;
+        visibility: hidden;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+}
+
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
