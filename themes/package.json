@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass newTheme/scss/style.scss newTheme/css/style.css --no-source-map",
+    "style": "npm run style-dark && npm run style-light",
+    "style-dark": "sass newTheme/scss/style-dark.scss newTheme/css/style-dark.css --no-source-map",
+    "style-light": "sass newTheme/scss/style.scss newTheme/css/style.css --no-source-map",
     "style-min": "sass newTheme/scss/style.scss newTheme/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
