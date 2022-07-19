@@ -1,0 +1,24 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main">
+        {{ content }}
+    </div>
+    <div class="main technology-grid" role="main">
+
+            <a href="">
+            <picture>
+                <source media="(min-width: 668px)" srcset="image/gallery/b.jpg">
+                <source media="(min-width: 376px)" srcset="image/gallery/c.jpg">
+                <img src="image/gallery/a.jpg?w=200" style="max-width: 100%;">
+            </picture>
+            </a>
+
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
