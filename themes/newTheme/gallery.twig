@@ -1,5 +1,7 @@
 {% include 'incl/header.twig' %}
 
+{% set imgs = ['a','b','c','d','e','f'] %}
+
 <body>
     {% include 'incl/nav.twig' %}
 
@@ -8,13 +10,15 @@
     </div>
     <div class="main technology-grid" role="main">
 
-            <a href="">
+        {% for i in imgs %}
+            <a href="{{assets_url}}/img/gallery/{{i}}.jpg">
             <picture>
-                <source media="(min-width: 668px)" srcset="image/gallery/b.jpg">
-                <source media="(min-width: 376px)" srcset="image/gallery/c.jpg">
-                <img src="image/gallery/a.jpg?w=200" style="max-width: 100%;">
+                <source media="(min-width: 800px)" srcset="image/gallery/{{i}}.jpg?w=90%&q=50">
+                <source media="(min-width: 400px)" srcset="image/gallery/{{i}}.jpg?w=50%&q=50">
+                <img src="image/gallery/{{i}}.jpg?w=25%&q=50" style="max-width: 100%;">
             </picture>
             </a>
+        {% endfor %}
 
     </div>
 
