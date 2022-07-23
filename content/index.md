@@ -13,7 +13,7 @@ This is a sample home page written in markdown with some frontmatter defined.
 <br>
 Me
 ---------------------------
-![Self Image](%base_url%/image/me.jpg "me") {.img200}
+![Self Image](%base_url%/image/me.jpg?q=50 "me") {.img200}
 <!-- <img src="image/me.jpg" alt="drawing" width="200"/> -->
 
 Hejsan, jag heter Sharif.

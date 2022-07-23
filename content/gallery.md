@@ -4,4 +4,4 @@ Description: Gallery
 Template: gallery
 ---
 
-Gallery
+Kolla på dessa fina bilder:
