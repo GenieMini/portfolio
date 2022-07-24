@@ -11,7 +11,7 @@
     <div class="main technology-grid" role="main">
 
         {% for i in imgs %}
-            <a href="{{assets_url}}/img/gallery/{{i}}.jpg">
+            <a href="{{assets_url}}/img/gallery/{{i}}.jpg" target="_blank">
             <picture>
                 <source media="(min-width: 800px)" srcset="image/gallery/{{i}}.jpg?w=90%&q=50">
                 <source media="(min-width: 400px)" srcset="image/gallery/{{i}}.jpg?w=50%&q=50">
@@ -20,6 +20,10 @@
             </a>
         {% endfor %}
 
+    </div>
+
+    <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/FuX5_OWObA0" frameborder="0" allowfullscreen></iframe>
     </div>
 
     {% include 'incl/footer.twig' %}

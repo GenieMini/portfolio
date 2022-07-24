@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.logo {
+    max-width: 250px;
+}
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.logo img {
+    max-width: 50%;
+    margin-left: 50px;
+}
+
+.img200 {
+    width: 200px;
+    filter: brightness(0.8);
+}
+
+.img80p {
+    width: 80%;
+    filter: brightness(0.8);
+}
+
+/* Technologies, flex */
+
+.technology-grid {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: auto auto auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.technology-article {
+    display: flex;
+    gap: 50px;
+}
+
+.article {
+    max-width: 50%;
+}
+
+@media (max-width: 767px) {
+    .technology-grid {
+        padding-left: 1em;
+        padding-right: 1em;
+        grid-template-columns: auto;
+    }
+
+    .sidebar {
+        display: none;
+        visibility: hidden;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+}
+
+/* Other */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
+
+/* Code */
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #000;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #000;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/* Blockquote */
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid #f5f5f5;
+}
