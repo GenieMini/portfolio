@@ -50,7 +50,7 @@ Resultat
 
 <br>
 #### letterboxd
-![Letterboxd](%base_url%/image/analys/letterboxd.png) {.img80p}
+![Letterboxd](%base_url%/image/analys/letterboxd.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #14171c; border-radius: 5px">
@@ -75,7 +75,7 @@ tillräckligt designad för den uppgiften.
 
 <br>
 #### fandom
-![Fandom](%base_url%/image/analys/fandom.png) {.img80p}
+![Fandom](%base_url%/image/analys/fandom.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #F2F5F5; border-radius: 5px">
@@ -96,7 +96,7 @@ På grund av att hemsidan använder starka färger så får sidan en icke-seriö
 
 <br>
 #### apple
-![Apple](%base_url%/image/analys/apple.png) {.img80p}
+![Apple](%base_url%/image/analys/apple.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #FBFBFD; border-radius: 5px">

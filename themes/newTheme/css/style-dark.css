@@ -346,11 +346,6 @@ template {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: #59b15c;
-  text-decoration: none;
-}
-
 ol,
 ul {
   padding-left: 1.5em;
@@ -365,49 +360,14 @@ body {
   height: 100%;
 }
 
-/* Placement */
 body {
   display: flex;
   flex-direction: column;
 }
 
-.main {
-  flex: 1 0 auto;
-  padding: 50px;
-  background-color: #111;
-}
-
-.header {
-  border-bottom: 2px solid #59b15c;
-}
-
-.header,
-.footer {
-  background-color: #243224;
-  flex: 0 0 auto;
-}
-
-/* Header */
+/* header */
 .logo {
   max-width: 250px;
-}
-
-.nav-toggle {
-  color: #59b15c;
-}
-
-.nav a {
-  text-decoration: none;
-  font-size: 20px;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: #59b15c;
-  color: #233628;
-}
-
-.nav a:hover {
-  background-color: #111;
-  color: #dddddd;
 }
 
 .header,
@@ -416,7 +376,6 @@ body {
   justify-content: space-between;
 }
 
-/* Title */
 .title,
 .logo {
   padding: 3em 3em 3em 0;
@@ -436,37 +395,16 @@ body {
     max-width: 30%;
   }
 }
-.title * {
-  color: #dddddd;
-}
-
 .title p {
   font-style: italic;
 }
 
 /* Footer */
-.footer {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  border-top: 2px solid #59b15c;
-}
-
-.footer a {
-  color: #dddddd;
-}
-
 .footer .social {
   font-size: 2rem;
 }
 
 /* Typografy */
-body {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  color: #dddddd;
-}
-
 p,
 td,
 th,
@@ -494,15 +432,13 @@ h6 {
 
 .img200 {
   width: 200px;
-  filter: brightness(0.8);
 }
 
 .img80p {
   width: 80%;
-  filter: brightness(0.8);
 }
 
-/* Technologies, flex*/
+/* Technologies, flex */
 .technology-grid {
   display: grid;
   gap: 1em 1em;
@@ -511,45 +447,9 @@ h6 {
   padding-right: 10vw;
 }
 
-.technology {
-  background-color: #59b15c;
-  border-radius: 5px;
-  padding: 40px;
-  height: calc(150px + 2vw);
-  box-shadow: 5px 5px 5px #080808;
-}
-
-.technology:hover {
-  background-color: #2f6847;
-}
-
-.t-a {
-  text-decoration: none;
-  color: #233628;
-}
-
 .technology-article {
   display: flex;
   gap: 50px;
-}
-
-.sidebar {
-  height: fit-content;
-  background-color: #59b15c;
-  color: #233628;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 5px 5px 5px #080808;
-}
-
-.sidebar h3 {
-  color: #233628;
-}
-
-.sidebar a {
-  color: #233628;
-  text-decoration: none;
-  padding-bottom: 5px;
 }
 
 .article {
@@ -572,6 +472,25 @@ h6 {
     max-width: 100%;
   }
 }
+/* Other */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 /* Code */
 code {
@@ -608,4 +527,114 @@ blockquote {
   margin-left: 1em;
   padding-left: 1em;
   border-left: 0.5em solid #f5f5f5;
+}
+
+a {
+  color: #59b15c;
+  text-decoration: none;
+}
+
+img {
+  filter: brightness(0.8);
+}
+
+/* Placement */
+.main {
+  flex: 1 0 auto;
+  padding: 50px;
+  background-color: #111;
+}
+
+.header {
+  border-bottom: 2px solid #59b15c;
+}
+
+.header,
+.footer {
+  background-color: #243224;
+  flex: 0 0 auto;
+}
+
+/* Header */
+.nav-toggle {
+  color: #59b15c;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #59b15c;
+  color: #233628;
+}
+
+.nav a:hover {
+  background-color: #111;
+  color: #dddddd;
+}
+
+.title * {
+  color: #dddddd;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #59b15c;
+}
+
+.footer a {
+  color: #dddddd;
+}
+
+/* Typografy */
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  color: #dddddd;
+}
+
+/* Technologies, flex */
+.technology {
+  background-color: #59b15c;
+  border-radius: 5px;
+  padding: 40px;
+  height: calc(150px + 2vw);
+  box-shadow: 5px 5px 5px #080808;
+}
+
+.technology:hover {
+  background-color: #2f6847;
+}
+
+.t-a {
+  text-decoration: none;
+  color: #233628;
+}
+
+.sidebar {
+  height: fit-content;
+  background-color: #59b15c;
+  color: #233628;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #080808;
+}
+
+.sidebar h3 {
+  color: #233628;
+}
+
+.sidebar a {
+  color: #233628;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+/* embed */
+.embed-container {
+  background-color: #111;
 }

@@ -1,6 +1,7 @@
 
 @import '../../node_modules/normalize.css/normalize';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './base';
 
 $main-color: #111;
 $second-color: #243224;
@@ -9,39 +10,16 @@ $main-shadow: #080808;
 $main-text: rgb(221, 221, 221);
 $second-text: #233628;
 
-* {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
 a {
     color: $third-color;
     text-decoration: none;
 }
 
-ol,
-ul {
-    padding-left: 1.5em;
-}
-
-.hidden {
-    display: none !important;
-}
-
-html,
-body {
-    height: 100%;
+img {
+    filter: brightness(0.8);
 }
 
 /* Placement */
-
-body {
-    display: flex;
-    flex-direction: column;
-}
 
 .main {
     flex: 1 0 auto;
@@ -61,10 +39,6 @@ body {
 
 /* Header */
 
-.logo {
-    max-width: 250px;
-}
-
 .nav-toggle {
     color: $third-color;
 }
@@ -83,40 +57,8 @@ body {
     color: $main-text;
 }
 
-.header,
-.site-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Title */
-
-.title,
-.logo {
-    padding: 3em 3em 3em 0;
-}
-
-@media (max-width: 767px) {
-    .title,
-    .logo {
-        padding: 1em 1em 1em 0;
-    }
-
-    .title {
-        min-width: 50%;
-    }
-
-    .logo {
-        max-width: 30%;
-    }
-}
-
 .title * {
     color: $main-text;
-}
-
-.title p {
-    font-style: italic;
 }
 
 /* Footer */
@@ -132,10 +74,6 @@ body {
     color: $main-text;
 }
 
-.footer .social {
-    font-size: 2rem;
-}
-
 /* Typografy */
 
 body {
@@ -144,50 +82,7 @@ body {
     color: $main-text;
 }
 
-p,
-td,
-th,
-li,
-dd {
-    text-align: justify;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 0.6em;
-    font-weight: bold;
-}
-
-.logo img {
-    max-width: 50%;
-    margin-left: 50px;
-}
-
-.img200 {
-    width: 200px;
-    filter: brightness(0.8);
-}
-
-.img80p {
-    width: 80%;
-    filter: brightness(0.8);
-}
-
-/* Technologies, flex*/
-
-.technology-grid {
-    display: grid;
-    gap: 1em 1em;
-    grid-template-columns: auto auto auto;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
+/* Technologies, flex */
 
 .technology {
     background-color: $third-color;
@@ -204,11 +99,6 @@ h6 {
 .t-a {
     text-decoration: none;
     color: $second-text;
-}
-
-.technology-article {
-    display: flex;
-    gap: 50px;
 }
 
 .sidebar {
@@ -230,65 +120,8 @@ h6 {
     padding-bottom: 5px;
 }
 
-.article {
-    max-width: 50%;
-}
+/* embed */
 
-@media (max-width: 767px) {
-    .technology-grid {
-        padding-left: 1em;
-        padding-right: 1em;
-        grid-template-columns: auto;
-    }
-
-    .sidebar {
-        display: none;
-        visibility: hidden;
-    }
-
-    .article {
-        max-width: 100%;
-    }
-}
-
-
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
-
-/* Code */
-
-code {
-    margin: 0 0.1em;
-    padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
-    border-radius: 0.3em;
-    background: #000;
-    font-family: monospace;
-    font-size: 0.85rem;
-    line-height: 1.9824;
-}
-
-pre {
-    padding: 0 1em;
-    border: 1px solid #ccc;
-    border-radius: 0.3em;
-    background: #000;
-}
-
-pre code {
-    display: block;
-    margin: 0;
-    padding: 1.1111em 0;
-    border: 0 none;
-    background: transparent;
-    overflow-x: auto;
-    line-height: 1.4;
-}
-
-/* Blockquote */
-
-blockquote {
-    font-style: italic;
-    margin-left: 1em;
-    padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
+.embed-container {
+    background-color: $main-color;
 }

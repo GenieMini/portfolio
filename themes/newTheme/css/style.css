@@ -346,11 +346,6 @@ template {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: #59b15c;
-  text-decoration: none;
-}
-
 ol,
 ul {
   padding-left: 1.5em;
@@ -365,43 +360,14 @@ body {
   height: 100%;
 }
 
-/* Placement */
 body {
   display: flex;
   flex-direction: column;
 }
 
-.main {
-  flex: 1 0 auto;
-  padding: 50px;
-  background-color: #fffbec;
-}
-
-.header {
-  border-bottom: 2px solid #59b15c;
-}
-
-.header,
-.footer {
-  background-color: #afe3af;
-  flex: 0 0 auto;
-}
-
-/* Header */
+/* header */
 .logo {
   max-width: 250px;
-}
-
-.nav a {
-  text-decoration: none;
-  font-size: 20px;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: #fffbec;
-}
-
-.nav a:hover {
-  background-color: #fff;
 }
 
 .header,
@@ -410,7 +376,6 @@ body {
   justify-content: space-between;
 }
 
-/* Title */
 .title,
 .logo {
   padding: 3em 3em 3em 0;
@@ -430,37 +395,16 @@ body {
     max-width: 30%;
   }
 }
-.title * {
-  color: #444;
-}
-
 .title p {
   font-style: italic;
 }
 
 /* Footer */
-.footer {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  border-top: 2px solid #59b15c;
-}
-
-.footer a {
-  color: #444;
-}
-
 .footer .social {
   font-size: 2rem;
 }
 
 /* Typografy */
-body {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  color: #444;
-}
-
 p,
 td,
 th,
@@ -494,7 +438,7 @@ h6 {
   width: 80%;
 }
 
-/* Technologies, flex*/
+/* Technologies, flex */
 .technology-grid {
   display: grid;
   gap: 1em 1em;
@@ -503,45 +447,9 @@ h6 {
   padding-right: 10vw;
 }
 
-.technology {
-  background-color: #59b15c;
-  border-radius: 5px;
-  padding: 40px;
-  height: calc(150px + 2vw);
-  box-shadow: 5px 5px 5px #bcc19f;
-}
-
-.technology:hover {
-  background-color: #2f6847;
-}
-
-.t-a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .technology-article {
   display: flex;
   gap: 50px;
-}
-
-.sidebar {
-  height: fit-content;
-  background-color: #59b15c;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 5px 5px 5px #bcc19f;
-}
-
-.sidebar h3 {
-  color: #fff;
-}
-
-.sidebar a {
-  color: #fff;
-  text-decoration: none;
-  padding-bottom: 5px;
 }
 
 .article {
@@ -564,6 +472,25 @@ h6 {
     max-width: 100%;
   }
 }
+/* Other */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 /* Code */
 code {
@@ -571,7 +498,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #000;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -581,7 +508,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #000;
 }
 
 pre code {
@@ -600,4 +527,109 @@ blockquote {
   margin-left: 1em;
   padding-left: 1em;
   border-left: 0.5em solid #f5f5f5;
+}
+
+a {
+  color: #59b15c;
+  text-decoration: none;
+}
+
+/* Placement */
+.main {
+  flex: 1 0 auto;
+  padding: 50px;
+  background-color: #fffbec;
+}
+
+.header {
+  border-bottom: 2px solid #59b15c;
+}
+
+.header,
+.footer {
+  background-color: #afe3af;
+  flex: 0 0 auto;
+}
+
+/* Header */
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fffbec;
+}
+
+.nav a:hover {
+  background-color: #fff;
+}
+
+.title * {
+  color: #444;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #59b15c;
+}
+
+.footer a {
+  color: #444;
+}
+
+/* Typografy */
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  color: #444;
+}
+
+/* Technologies, flex*/
+.technology {
+  background-color: #59b15c;
+  border-radius: 5px;
+  padding: 40px;
+  height: calc(150px + 2vw);
+  box-shadow: 5px 5px 5px #bcc19f;
+}
+
+.technology:hover {
+  background-color: #2f6847;
+}
+
+.t-a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar {
+  height: fit-content;
+  background-color: #59b15c;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #bcc19f;
+}
+
+.sidebar h3 {
+  color: #fff;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+/* embed */
+.embed-container {
+  background-color: #fffbec;
+}
+
+/* code */
+code, pre {
+  background-color: transparent;
 }
