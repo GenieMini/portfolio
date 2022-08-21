@@ -8,7 +8,7 @@ Laddnings hastigheter
 =======================
 
 I denna rapport skrivs det en analys om laddningshastigheter.
-Jag kommer kolla på 3 hemsidor och se hur dom har gjort sin hemsida snabbare.
+Jag kommer kolla på 3 hemsidor och se hur/om dom har gjort sin hemsida snabbare.
 
 <br>
 Urval
