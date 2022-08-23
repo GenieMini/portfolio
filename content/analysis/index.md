@@ -19,7 +19,7 @@ Or click these links:
 
 ## [Load][2]
 
-## [Design Principer][2]
+## [Design Principer][3]
 
 [1]: ./analysis/01_colors
 [2]: ./analysis/02_load
