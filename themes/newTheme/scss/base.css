@@ -57,8 +57,10 @@ body {
     }
 }
 
-.title p {
+.title h2 {
     font-style: italic;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 /* Footer */

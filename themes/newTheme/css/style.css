@@ -395,8 +395,10 @@ body {
     max-width: 30%;
   }
 }
-.title p {
+.title h2 {
   font-style: italic;
+  font-size: 1em;
+  font-weight: normal;
 }
 
 /* Footer */
@@ -656,9 +658,4 @@ body {
 /* embed */
 .embed-container {
   background-color: #fffbec;
-}
-
-/* code */
-code, pre {
-  background-color: transparent;
 }

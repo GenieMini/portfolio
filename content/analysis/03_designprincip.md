@@ -51,7 +51,7 @@ Resultat
 -----------------------
 
 <br>
-#### [Robin Noguier][1]
+### [Robin Noguier][1]
 
 Hemsidan omfattar Robin Noguiers design karriär och vilka han har jobbat med.
 Målet av hemsidan är att "sälja" Robin som en designer för de som söker en.
@@ -64,7 +64,7 @@ Jag tycker sidan använder färg, rörelse, emphasis och spacing väldigt bra. t
 Undersidorna, alltså artiklarna har inte lika mycket flow som framsidan men dom är bra på att visa text och länkar på olika sätt för att ändra tempot. Nästan alla delar av hans about page ser olika ut, men allt passar ändå ihop tack vare konsistensen i temat.
 
 <br>
-#### [Urban Ape][2]
+### [Urban Ape][2]
 
 Hemsidan visar det mästa som Urban Ape har jobbat på som designer.
 Hemsidans mål är att sälja Urban Ape som en designer, presis som Robin's hemsida.
@@ -83,7 +83,7 @@ utan du måste skriva /about i URLn.
 Ändå så lägger det till något att det inte finns några knappar, det är som att han säger "det här e det jag kan göra, här e min email" och det behövs inte så mycket mer.
 
 <br>
-#### [Derek Yu][3]
+### [Derek Yu][3]
 
 Hemsidan är ett litet intro till vem Derek Yu är och var man kan hitta han på andra hemsidor.
 Derek yus sida har ett akromatiskt halloween tema med teckningar av zombies för en header.

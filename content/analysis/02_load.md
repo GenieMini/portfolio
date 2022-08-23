@@ -52,7 +52,7 @@ Jag använder [PageSpeed][4] och chrome verktyget Lighthouse för att mäta hast
 Resultat
 -----------------------
 
-<iframe style="width: 100%; height: 160px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSBK0egAJd7U-wBONlB8efTJAO_vr1eHN1v6-kwzFlVKAyXwaooUDqUxbFBUhqlywnWVO1CHN5W2a3m/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe style="width: 100%; height: 160px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSBK0egAJd7U-wBONlB8efTJAO_vr1eHN1v6-kwzFlVKAyXwaooUDqUxbFBUhqlywnWVO1CHN5W2a3m/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" aria-label="Sheet for results"></iframe>
 
 (ATF = Above the fold)
 

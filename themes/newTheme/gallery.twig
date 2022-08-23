@@ -11,11 +11,11 @@
     <div class="main technology-grid" role="main">
 
         {% for i in imgs %}
-            <a href="{{assets_url}}/img/gallery/{{i}}.jpg" target="_blank">
+            <a href="{{assets_url}}/img/gallery/{{i}}.jpg" target="_blank" aria-label="image {{i}}">
             <picture>
                 <source media="(min-width: 1000px)" srcset="image/gallery/{{i}}.jpg?w=600&q=60">
                 <source media="(min-width: 767px)" srcset="image/gallery/{{i}}.jpg?w=350&q=60">
-                <img src="image/gallery/{{i}}.jpg?w=300&q=70" style="width: 100%;" loading="lazy">
+                <img src="image/gallery/{{i}}.jpg?w=300&q=70" style="width: 100%;" alt="image {{i}}" loading="lazy">
             </picture>
             </a>
         {% endfor %}
@@ -23,7 +23,7 @@
     </div>
 
     <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/FuX5_OWObA0" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/FuX5_OWObA0" frameborder="0" allowfullscreen loading="lazy" aria-label="music video"></iframe>
     </div>
 
     {% include 'incl/footer.twig' %}

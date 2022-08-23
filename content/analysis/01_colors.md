@@ -49,7 +49,7 @@ Resultat
 -----------------------
 
 <br>
-#### letterboxd
+### letterboxd
 ![Letterboxd](%base_url%/image/analys/letterboxd.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -74,7 +74,7 @@ Användaren är bara där för att lägga till filmer i sin katalog och jag tyck
 tillräckligt designad för den uppgiften.
 
 <br>
-#### fandom
+### fandom
 ![Fandom](%base_url%/image/analys/fandom.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -95,7 +95,7 @@ På grund av att hemsidan använder starka färger så får sidan en icke-seriö
 
 
 <br>
-#### apple
+### apple
 ![Apple](%base_url%/image/analys/apple.png?w=60%) {.img80p}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
