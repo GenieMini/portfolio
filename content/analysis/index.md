@@ -21,6 +21,6 @@ Or click these links:
 
 ## [Design Principer][2]
 
-[1]: /dbwebb/design/me/portfolio/analysis/01_colors
-[2]: /dbwebb/design/me/portfolio/analysis/02_load
-[3]: /dbwebb/design/me/portfolio/analysis/03_designprincip
+[1]: ./analysis/01_colors
+[2]: ./analysis/02_load
+[3]: ./analysis/03_designprincip
