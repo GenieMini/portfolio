@@ -4,7 +4,7 @@ Description: Analysis 3
 Template: analysis
 ---
 
-Design principer
+Design principer {.a-title}
 =======================
 
 I denna rapport skrivs det en analys om designprinciper och känsla.

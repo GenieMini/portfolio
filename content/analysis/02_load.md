@@ -4,7 +4,7 @@ Description: Analysis 2
 Template: analysis
 ---
 
-Laddnings hastigheter
+Laddnings hastigheter {.a-title}
 =======================
 
 I denna rapport skrivs det en analys om laddningshastigheter.

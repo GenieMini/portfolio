@@ -5,7 +5,7 @@ Template: analysis
 ---
 
 
-Färg och känsla
+Färg och känsla {.a-title}
 =======================
 
 I denna rapport skrivs det en analys om färger.

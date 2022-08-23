@@ -3,7 +3,7 @@ Title: Home
 Description: This is the index page.
 ---
 
-Home page
+Home page {.a-title}
 ==========================
 
 The source for this page is in `content/index.md`.

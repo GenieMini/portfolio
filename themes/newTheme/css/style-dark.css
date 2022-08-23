@@ -378,7 +378,7 @@ body {
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 1em 1em 1em 1em;
 }
 
 @media (max-width: 767px) {
@@ -422,20 +422,22 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.6em;
+  letter-spacing: 2px;
   font-weight: bold;
 }
 
 .logo img {
-  max-width: 50%;
-  margin-left: 50px;
+  max-width: 100px;
 }
 
 .img200 {
   width: 200px;
+  border: 2px solid #59b15c;
 }
 
 .img80p {
   width: 80%;
+  border: 2px solid #59b15c;
 }
 
 /* Technologies, flex */
@@ -443,17 +445,24 @@ h6 {
   display: grid;
   gap: 1em 1em;
   grid-template-columns: auto auto auto;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-bottom: 50px;
+  padding-left: calc(10px + 8%);
+  padding-right: calc(10px + 8%);
 }
 
 .technology-article {
   display: flex;
-  gap: 50px;
+  gap: 25px;
 }
 
 .article {
   max-width: 50%;
+  padding-left: 25px;
+  border-left: 2px solid #59b15c;
+}
+
+.margin25 {
+  margin-left: 25%;
 }
 
 @media (max-width: 767px) {
@@ -470,6 +479,10 @@ h6 {
 
   .article {
     max-width: 100%;
+  }
+
+  .margin25 {
+    margin-left: 0px;
   }
 }
 /* Other */
@@ -489,6 +502,15 @@ h6 {
   left: 10%;
   width: 80%;
   height: 80%;
+}
+
+/* Font kmom06 */
+.a-title {
+  font-family: Georgia, serif;
+  font-size: 3em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 3rem;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
@@ -553,6 +575,9 @@ img {
 .footer {
   background-color: #243224;
   flex: 0 0 auto;
+  padding: 20px;
+  padding-left: calc(10px + 8%);
+  padding-right: calc(10px + 8%);
 }
 
 /* Header */
@@ -562,16 +587,16 @@ img {
 
 .nav a {
   text-decoration: none;
+  font-family: monospace;
   font-size: 20px;
   padding: 5px;
   border-radius: 5px;
-  background-color: #59b15c;
-  color: #233628;
+  color: #59b15c;
 }
 
 .nav a:hover {
-  background-color: #111;
-  color: #dddddd;
+  background-color: #59b15c;
+  color: #111;
 }
 
 .title * {
@@ -580,7 +605,6 @@ img {
 
 /* Footer */
 .footer {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid #59b15c;
@@ -598,6 +622,10 @@ body {
 }
 
 /* Technologies, flex */
+.technology-grid {
+  background-color: #111;
+}
+
 .technology {
   background-color: #59b15c;
   border-radius: 5px;
@@ -621,6 +649,7 @@ body {
   color: #233628;
   border-radius: 5px;
   padding: 20px;
+  margin-left: 15%;
   box-shadow: 5px 5px 5px #080808;
 }
 

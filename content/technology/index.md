@@ -4,7 +4,7 @@ Description: Index page for technologies.
 Template: technologies
 ---
 
-Technologies
+Technologies {.a-title}
 ==========================
 
 The source for this page is in `content/technology/index.md`.
