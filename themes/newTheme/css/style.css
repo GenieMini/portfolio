@@ -659,3 +659,8 @@ body {
 .embed-container {
   background-color: #fffbec;
 }
+
+/* code */
+code {
+  background: transparent;
+}
